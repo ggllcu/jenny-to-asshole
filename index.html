@@ -44,10 +44,10 @@
       changeMessage() { 
         let changedMessage
         switch (this.tab) {
-          case 'easy':
+          case 'hard':
             changedMessage = this.message.replace(/[aeiouAEIOU]/g, '')
             break;
-          case 'hard':
+          case 'easy':
             changedMessage = this.message
               .replace(/[aA]/g, '4')
               .replace(/[eE]/g, '3')
