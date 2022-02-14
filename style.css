@@ -1,0 +1,7 @@
+.image {
+  width: clamp(3.125rem, 0.8929rem + 11.1607vw, 6.25rem);
+}
+
+.poop {
+  font-size: clamp(3.125rem, 0.8929rem + 11.1607vw, 6.25rem);
+}
